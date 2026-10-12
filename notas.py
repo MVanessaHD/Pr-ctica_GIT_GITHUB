@@ -5,6 +5,6 @@ print("Nota maxima:", max(notas))
 print("Nota minima:", min(notas))
 print("Cantidad de notas:", len(notas))
 
-from statistics import median
 
-print("Mediana de notas:", median(notas))
+from statistics import median
+print("La mediana de notas es: ",median(notas))
